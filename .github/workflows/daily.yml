@@ -3,7 +3,7 @@ name: Build OverseasPost EPUB
 on:
   workflow_dispatch:
   schedule:
-    - cron: "30 14 * * *"
+    - cron: "1 * * 1 *"
 
 jobs:
   build:
